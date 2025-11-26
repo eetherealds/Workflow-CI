@@ -31,7 +31,7 @@ jobs:
       - name: Run MLflow Project
         run: |
           cd MLProject
-          python modelling. py \
+          python modelling.py \
             --data_path earthquake_data_tsunami_preprocessing.csv \
             --n_estimators 100 \
             --max_depth 10
