@@ -1,0 +1,14 @@
+name: earthquake_tsunami_training
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      data_path: {type: string, default: "earthquake_data_tsunami_preprocessing.csv"}
+      target_col: {type: string, default: "tsunami"}
+      test_size: {type: float, default: 0.2}
+      random_state: {type: int, default: 42}
+      n_estimators: {type: int, default: 100}
+      max_depth: {type: int, default: 10}
+    command: "python modelling.py --data_path {data_path} --target_col {target_col} --test_size {test_size} --random_state {random_state} --n_estimators {n_estimators} --max_depth {max_depth}"
