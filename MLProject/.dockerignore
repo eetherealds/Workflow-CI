@@ -4,16 +4,16 @@ __pycache__/
 *.pyd
 .Python
 *.so
-*. egg
-*. egg-info/
+*.egg
+*.egg-info/
 dist/
 build/
 mlruns/
 *.log
-. git/
+.git/
 .gitignore
 .vscode/
 .idea/
-*. md
+*.md
 Dockerfile
-.   dockerignore
+.dockerignore
