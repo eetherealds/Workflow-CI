@@ -1,12 +1,19 @@
 __pycache__/
-*.py[cod]
-*$py. class
-*.so
+*.pyc
+*.pyo
+*.pyd
 .Python
+*.so
+*. egg
+*. egg-info/
+dist/
+build/
 mlruns/
-*.png
-*.txt
+*.log
 . git/
-.github/
+.gitignore
+.vscode/
+.idea/
 *. md
-*.db
+Dockerfile
+.   dockerignore
