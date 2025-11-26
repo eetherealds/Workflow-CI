@@ -13,7 +13,7 @@ RUN pip install --upgrade pip setuptools wheel
 
 # Install Python dependencies with fixed versions
 RUN pip install --no-cache-dir \
-    mlflow==2.10. 0 \
+    mlflow==2.10.0 \
     pandas==2.0.3 \
     numpy==1.24.4 \
     scikit-learn==1.3.2 \
